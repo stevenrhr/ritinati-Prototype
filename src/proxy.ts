@@ -10,30 +10,43 @@ export async function proxy(request: NextRequest) {
   const response = intlMiddleware(request);
 
   // 2. Initialize Supabase client to sync cookies and refresh auth session
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        get(name: string) {
-          return request.cookies.get(name)?.value;
-        },
-        set(name: string, value: string, options: any) {
-          request.cookies.set({ name, value, ...options });
-          response.cookies.set({ name, value, ...options });
-        },
-        remove(name: string, options: any) {
-          request.cookies.set({ name, value: "", ...options });
-          response.cookies.set({ name, value: "", ...options });
-        },
-      },
-    }
-  );
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
-  // Refresh user session dynamically
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  let user = null;
+  if (supabaseUrl && supabaseAnonKey) {
+    const supabase = createServerClient(
+      supabaseUrl,
+      supabaseAnonKey,
+      {
+        cookies: {
+          get(name: string) {
+            return request.cookies.get(name)?.value;
+          },
+          set(name: string, value: string, options: any) {
+            request.cookies.set({ name, value, ...options });
+            response.cookies.set({ name, value, ...options });
+          },
+          remove(name: string, options: any) {
+            request.cookies.set({ name, value: "", ...options });
+            response.cookies.set({ name, value: "", ...options });
+          },
+        },
+      }
+    );
+
+    // Refresh user session dynamically
+    try {
+      const {
+        data: { user: currentUser },
+      } = await supabase.auth.getUser();
+      user = currentUser;
+    } catch (error) {
+      console.error("Supabase auth error in proxy:", error);
+    }
+  } else {
+    console.warn("Supabase environment variables missing. Skipping auth check.");
+  }
 
   // 3. Route protection for /admin
   const pathname = request.nextUrl.pathname;
