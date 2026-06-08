@@ -1,0 +1,136 @@
+{
+  "Navbar": {
+    "home": "Beranda",
+    "layanan": "Layanan",
+    "portofolio": "Portofolio",
+    "gallery": "Galeri",
+    "daftar": "Daftar Kelas",
+    "kontak": "Kontak",
+    "admin": "Admin"
+  },
+  "Footer": {
+    "about": "Ritinari Karya Indonesia adalah studio seni tari budaya tradisional yang berdedikasi untuk melestarikan dan memperkenalkan kekayaan warisan budaya Indonesia melalui tarian.",
+    "links": "Tautan Cepat",
+    "contact": "Hubungi Kami",
+    "address": "Jl. Budaya No. 12, Jakarta, Indonesia",
+    "rights": "Hak Cipta Dilindungi Undang-Undang."
+  },
+  "Home": {
+    "hero": {
+      "tagline": "Menari Dengan Hati",
+      "subtitle": "Melestarikan warisan leluhur melalui setiap gerakan yang harmonis, anggun, dan berjiwa.",
+      "ctaWhatsapp": "Hubungi WhatsApp",
+      "ctaDaftar": "Daftar Kelas"
+    },
+    "tentang": {
+      "title": "Tentang Ritinari",
+      "subtitle": "Kisah dan Misi Kami",
+      "p1": "Ritinari Karya Indonesia didirikan dengan visi menjadi pusat pelestarian dan pengembangan seni tari tradisional Indonesia. Kami percaya bahwa tari bukan sekadar gerakan fisik, melainkan jembatan yang menghubungkan kita dengan jiwa leluhur dan identitas bangsa.",
+      "p2": "Dengan pengajar profesional dan berpengalaman, kami menawarkan lingkungan belajar yang mendalam bagi semua usia untuk mengenal dan mencintai kebudayaan Nusantara."
+    },
+    "layanan": {
+      "title": "Layanan Kami",
+      "subtitle": "Apa yang Kami Tawarkan",
+      "service1": {
+        "title": "Kelas Tari Tradisional",
+        "desc": "Pembelajaran intensif berbagai tari daerah Nusantara (Jawa, Bali, Sumatra, dll) untuk pemula hingga tingkat mahir."
+      },
+      "service2": {
+        "title": "Penampilan Profesional",
+        "desc": "Penyediaan tim penari profesional untuk acara kenegaraan, korporat, pernikahan, dan festival budaya nasional/internasional."
+      },
+      "service3": {
+        "title": "Sewa Busana Adat",
+        "desc": "Koleksi lengkap busana tari tradisional berkualitas tinggi dan autentik beserta aksesoris pelengkapnya."
+      },
+      "detailButton": "Lihat Selengkapnya"
+    },
+    "youtube": {
+      "title": "Penampilan Terbaru Kami",
+      "subtitle": "Tonton cuplikan keindahan gerakan tari kami di YouTube"
+    },
+    "team": {
+      "title": "Pengajar & Tim",
+      "subtitle": "Para Maestro di Balik Layar Ritinari"
+    },
+    "instagram": {
+      "title": "Ikuti Kami di Instagram",
+      "subtitle": "Dapatkan update harian aktivitas latihan dan pertunjukan kami"
+    }
+  },
+  "Layanan": {
+    "title": "Layanan Detail",
+    "subtitle": "Eksplorasi layanan terbaik dari Ritinari Karya Indonesia",
+    "kelas": {
+      "title": "Kelas Tari Tradisional",
+      "desc": "Kami membuka kelas reguler dan privat untuk anak-anak, remaja, dan dewasa. Kurikulum mencakup teknik dasar, ekspresi wajah (wiraga, wirama, wirasa), dan koreografi tari Nusantara.",
+      "features": ["Jadwal fleksibel (Weekend/Weekday)", "Sertifikat kelulusan level", "Ujian evaluasi semesteran", "Kesempatan tampil di panggung pertunjukan"]
+    },
+    "show": {
+      "title": "Penampilan Profesional",
+      "desc": "Koreografi kustom yang disesuaikan dengan tema acara Anda. Kami menghadirkan pertunjukan tari kolosal maupun tunggal dengan aransemen musik tradisional modern yang megah.",
+      "features": ["Koreografer bersertifikat nasional", "Kostum mewah dan lengkap", "Manajemen pertunjukan profesional", "Fleksibilitas durasi dan jenis tarian"]
+    },
+    "sewa": {
+      "title": "Sewa Busana Tari & Adat",
+      "desc": "Koleksi busana yang dirawat dengan sangat baik, bersih, wangi, dan lengkap dari berbagai daerah di Indonesia. Kami juga menyediakan jasa tata rias tradisional.",
+      "features": ["Koleksi lengkap Jawa, Sunda, Bali, Sumatra, dll", "Ukuran bervariasi (anak hingga dewasa)", "Layanan fitting dan konsultasi gratis", "Harga sewa kompetitif dengan durasi fleksibel"]
+    }
+  },
+  "Portofolio": {
+    "title": "Portofolio Pertunjukan",
+    "subtitle": "Dokumentasi acara dan penampilan Ritinari Karya Indonesia",
+    "noItems": "Belum ada portofolio yang terdaftar."
+  },
+  "Gallery": {
+    "title": "Galeri Foto",
+    "subtitle": "Keindahan seni visual tari tradisional Indonesia",
+    "noImages": "Belum ada foto di galeri.",
+    "uploadTitle": "Foto Terunggah"
+  },
+  "Daftar": {
+    "title": "Pendaftaran Kelas",
+    "subtitle": "Bergabunglah bersama kami dan mulailah perjalanan menari Anda",
+    "form": {
+      "nama": "Nama Lengkap",
+      "email": "Alamat Email",
+      "no_hp": "Nomor WhatsApp (No. HP)",
+      "pilihan_kelas": "Pilihan Kelas Tari",
+      "pesan": "Pesan / Catatan Tambahan",
+      "placeholderNama": "Masukkan nama lengkap Anda",
+      "placeholderEmail": "nama@contoh.com",
+      "placeholderNoHp": "Contoh: 081234567890",
+      "placeholderPesan": "Tuliskan pengalaman menari Anda (jika ada) atau pertanyaan khusus...",
+      "submit": "Kirim Pendaftaran",
+      "submitting": "Mengirim...",
+      "success": "Pendaftaran Anda berhasil dikirim! Kami akan menghubungi Anda segera via WhatsApp.",
+      "error": "Terjadi kesalahan saat mengirim pendaftaran. Silakan coba lagi.",
+      "selectClass": "Pilih kelas tari..."
+    },
+    "classes": {
+      "anak": "Kelas Tari Anak (Usia 4-10 tahun)",
+      "remaja": "Kelas Tari Remaja (Usia 11-18 tahun)",
+      "dewasa": "Kelas Tari Dewasa / Umum",
+      "privat": "Kelas Privat (Kustom)"
+    }
+  },
+  "Kontak": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kunjungi studio kami atau kirim pesan langsung",
+    "info": {
+      "title": "Informasi Kontak",
+      "address": "Alamat",
+      "phone": "Telepon / WA",
+      "email": "Email",
+      "hours": "Jam Operasional",
+      "hoursValue": "Senin - Sabtu: 09:00 - 17:00 WIB"
+    },
+    "chatWhatsapp": "Hubungi WhatsApp Kami",
+    "mapTitle": "Lokasi Studio Kami"
+  },
+  "Music": {
+    "play": "Putar Musik",
+    "pause": "Hentikan Musik",
+    "nowPlaying": "Memutar: Gending Jawa Tradisional"
+  }
+}

@@ -1,0 +1,32 @@
+# Task List
+
+- [x] Define environment variables `.env` and `.env.local`
+- [x] Configure `next-intl` localization plugin and messages
+  - [x] `next.config.ts` integration
+  - [x] `src/i18n/routing.ts` locales setup
+  - [x] `src/i18n/request.ts` request configuration
+  - [x] `messages/id.json` and `messages/en.json` files
+- [x] Set up Supabase helpers and middleware
+  - [x] `src/lib/supabase.ts` for client/server database clients
+  - [x] `src/proxy.ts` (migrated from middleware.ts) combining locale routing and Auth path protection
+- [x] Implement elegant styling & assets
+  - [x] Modify `src/app/globals.css` with traditional fonts and batik accent variables
+  - [x] Create UI components (Navbar, Footer, AudioPlayer, WhatsApp button)
+- [x] Refactor pages folder to localized layouts
+  - [x] `src/app/[locale]/layout.tsx`
+  - [x] `src/app/[locale]/page.tsx` (Home page)
+  - [x] `src/app/[locale]/layanan/page.tsx` (3 services details)
+  - [x] `src/app/[locale]/portofolio/page.tsx` (Portofolio events)
+  - [x] `src/app/[locale]/gallery/page.tsx` (Gallery masonry grid)
+  - [x] `src/app/[locale]/daftar/page.tsx` & `/api/form` handler
+  - [x] `src/app/[locale]/kontak/page.tsx`
+- [x] Build admin dashboard pages & features
+  - [x] `/admin/login` page
+  - [x] `/admin/layout` skeleton
+  - [x] `/admin` stats overview
+  - [x] `/admin/konten` CRUD articles/teams/video
+  - [x] `/admin/pendaftar` table and CSV exporter
+  - [x] `/admin/media` storage uploads and deletes
+- [x] Verification and Polish
+  - [x] Verify build and fix TypeScript errors
+  - [x] Create walkthrough.md

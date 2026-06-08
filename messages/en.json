@@ -1,0 +1,136 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "layanan": "Services",
+    "portofolio": "Portfolio",
+    "gallery": "Gallery",
+    "daftar": "Join Class",
+    "kontak": "Contact",
+    "admin": "Admin"
+  },
+  "Footer": {
+    "about": "Ritinari Karya Indonesia is a traditional cultural dance studio dedicated to preserving and introducing the rich cultural heritage of Indonesia through dance.",
+    "links": "Quick Links",
+    "contact": "Contact Us",
+    "address": "Jl. Budaya No. 12, Jakarta, Indonesia",
+    "rights": "All Rights Reserved."
+  },
+  "Home": {
+    "hero": {
+      "tagline": "Dancing With Heart",
+      "subtitle": "Preserving ancestral heritage through every harmonious, graceful, and soulful movement.",
+      "ctaWhatsapp": "Contact WhatsApp",
+      "ctaDaftar": "Register Class"
+    },
+    "tentang": {
+      "title": "About Ritinari",
+      "subtitle": "Our Story and Mission",
+      "p1": "Ritinari Karya Indonesia was founded with a vision to become the center of preservation and development of traditional Indonesian dance. We believe that dance is not just physical movement, but a bridge that connects us with ancestral soul and national identity.",
+      "p2": "With professional and experienced instructors, we offer an immersive learning environment for all ages to get to know and love the culture of Nusantara."
+    },
+    "layanan": {
+      "title": "Our Services",
+      "subtitle": "What We Offer",
+      "service1": {
+        "title": "Traditional Dance Class",
+        "desc": "Intensive learning of various regional dances of the Archipelago (Java, Bali, Sumatra, etc) for beginners to advanced levels."
+      },
+      "service2": {
+        "title": "Professional Performance",
+        "desc": "Provision of professional dance teams for state events, corporate shows, weddings, and national/international cultural festivals."
+      },
+      "service3": {
+        "title": "Traditional Costume Rental",
+        "desc": "A complete collection of high-quality, authentic traditional dance costumes and their matching accessories."
+      },
+      "detailButton": "View Details"
+    },
+    "youtube": {
+      "title": "Our Latest Performance",
+      "subtitle": "Watch snippets of our beautiful dance movements on YouTube"
+    },
+    "team": {
+      "title": "Instructors & Team",
+      "subtitle": "The Maestros Behind Ritinari"
+    },
+    "instagram": {
+      "title": "Follow Us on Instagram",
+      "subtitle": "Get daily updates of our practices and performances"
+    }
+  },
+  "Layanan": {
+    "title": "Detailed Services",
+    "subtitle": "Explore the best services from Ritinari Karya Indonesia",
+    "kelas": {
+      "title": "Traditional Dance Class",
+      "desc": "We open regular and private classes for children, youth, and adults. The curriculum covers basic techniques, facial expressions (wiraga, wirama, wirasa), and choreography of Nusantara dance.",
+      "features": ["Flexible schedule (Weekend/Weekday)", "Level graduation certificate", "Semester evaluation exams", "Opportunities to perform on stage"]
+    },
+    "show": {
+      "title": "Professional Performance",
+      "desc": "Custom choreography tailored to your event theme. We present grand colossal or solo dance performances with modern traditional music arrangements.",
+      "features": ["National certified choreographers", "Luxurious and complete costumes", "Professional performance management", "Flexibility of duration and dance types"]
+    },
+    "sewa": {
+      "title": "Dance & Traditional Costume Rental",
+      "desc": "Well-maintained, clean, scented, and complete costumes from various regions in Indonesia. We also provide traditional make-up services.",
+      "features": ["Complete collections from Java, Sunda, Bali, Sumatra, etc", "Various sizes (kids to adults)", "Free fitting and consultation service", "Competitive rental prices with flexible duration"]
+    }
+  },
+  "Portofolio": {
+    "title": "Performance Portfolio",
+    "subtitle": "Event documentation and performances of Ritinari Karya Indonesia",
+    "noItems": "No portfolio items registered yet."
+  },
+  "Gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "The beauty of Indonesian traditional dance visual arts",
+    "noImages": "No photos in gallery yet.",
+    "uploadTitle": "Uploaded Photos"
+  },
+  "Daftar": {
+    "title": "Class Registration",
+    "subtitle": "Join us and begin your dancing journey today",
+    "form": {
+      "nama": "Full Name",
+      "email": "Email Address",
+      "no_hp": "WhatsApp Number (Phone No.)",
+      "pilihan_kelas": "Dance Class Option",
+      "pesan": "Message / Additional Notes",
+      "placeholderNama": "Enter your full name",
+      "placeholderEmail": "name@example.com",
+      "placeholderNoHp": "Example: 081234567890",
+      "placeholderPesan": "Write about your dance experience (if any) or special questions...",
+      "submit": "Submit Registration",
+      "submitting": "Submitting...",
+      "success": "Your registration has been successfully sent! We will contact you soon via WhatsApp.",
+      "error": "An error occurred while submitting your registration. Please try again.",
+      "selectClass": "Select a dance class..."
+    },
+    "classes": {
+      "anak": "Kids Dance Class (Ages 4-10)",
+      "remaja": "Youth Dance Class (Ages 11-18)",
+      "dewasa": "Adult / General Class",
+      "privat": "Private Class (Custom)"
+    }
+  },
+  "Kontak": {
+    "title": "Contact Us",
+    "subtitle": "Visit our studio or drop a direct message",
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "phone": "Phone / WA",
+      "email": "Email",
+      "hours": "Operating Hours",
+      "hoursValue": "Monday - Saturday: 09:00 - 17:00 WIB"
+    },
+    "chatWhatsapp": "Contact Our WhatsApp",
+    "mapTitle": "Our Studio Location"
+  },
+  "Music": {
+    "play": "Play Music",
+    "pause": "Pause Music",
+    "nowPlaying": "Playing: Traditional Gamelan Javanese"
+  }
+}
