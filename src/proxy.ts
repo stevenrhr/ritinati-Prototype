@@ -11,7 +11,7 @@ export async function proxy(request: NextRequest) {
 
   // 2. Initialize Supabase client to sync cookies and refresh auth session
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
   let user = null;
   if (supabaseUrl && supabaseAnonKey) {
